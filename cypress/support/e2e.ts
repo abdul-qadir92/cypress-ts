@@ -28,3 +28,4 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 
 
 import 'browserstack-cypress-cli/bin/testObservability/cypress'
+

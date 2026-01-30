@@ -7,7 +7,8 @@
     "cypress:run": "cypress run --config-file cypress/config/cypress.config.ts",
     "cypress:run:headed": "cypress run --headed --config-file cypress/config/cypress.config.ts",
     "test": "cypress run --config-file cypress/config/cypress.config.ts",
-    "browserstack:run": "browserstack-cypress-cli run"
+    "browserstack": "BSTACK_USE_RELATIVE_PATHS=true browserstack-cypress run --ccf ./cypress/config/cypress.config.ts",
+    "browserstack:sync": "BSTACK_USE_RELATIVE_PATHS=true browserstack-cypress run --sync --ccf ./cypress/config/cypress.config.ts"
   },
   "keywords": [
     "cypress",
@@ -18,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "browserstack-cypress-cli": "^1.36.1",
+    "browserstack-cypress-cli": "^1.36.2",
     "cypress": "^14.5.2",
     "typescript": "^5.8.3"
   }

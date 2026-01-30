@@ -1,7 +1,7 @@
 {
     "auth": {
-        "username": "",
-        "access_key": ""
+        "username": "<Your BrowserStack username>",
+        "access_key": "<Your BrowserStack access key>"
     },
     "browsers": [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "run_settings": {
-        "home_directory": "/Users/aaryanarora/Documents/cypress-ts",
+        "home_directory": "/Users/qadir/Documents/cypress-ts",
         "cypress_config_file": "./cypress/config/cypress.config.ts",
         "project_name": "Cypress",
         "build_name": "build-name",
@@ -26,7 +26,7 @@
         "parallels": "10",
         "cypress_version": "14.latest",
         "npm_dependencies": {
-            "browserstack-cypress-cli": "^1.36.1",
+            "browserstack-cypress-cli": "^1.36.2",
             "cypress": "^14.5.2",
             "typescript": "^5.8.3"
         },
